@@ -1,0 +1,76 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    background-image: url("https://media.snl.no/media/171289/standard_sherlock.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 16px;
+}
+
+.page-logo {
+    width: 150px;
+}
+
+@media (max-height: 500px) {
+    body {
+        min-height: 800px;
+    }
+}
+
+input {
+    margin: 4px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #ffffff;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #40c4ff;
+    color: #eee;
+    transition: 0.5s;
+}
+
+.resultado {
+    color: #ffffff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 16px auto;
+}
+
+#contador {
+    color: #eee;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#reiniciar {
+    display: none;
+    margin: 15px auto;
+}
